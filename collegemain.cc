@@ -11,7 +11,12 @@
     and the .cc file for the container.
 	John Dolan			Spring 2015
 **********************************************************/
-
+/*! \file
+ *  \brief main for college container
+ *  \author John Dolan
+ *  
+ *  This file contains main()
+ */
 #include <iostream>
 #include <fstream>
 #include <string>

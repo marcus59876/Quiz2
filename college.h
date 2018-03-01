@@ -1,9 +1,9 @@
-//********************
-//Matthew Aberegg
-//Project 3
-//CS 2401
-//10/8/2015
-//********************
+/*! \file college.h
+ *  \brief header file for college class
+ *  \author Matthew Aberegg
+ *  
+ *  This file contains function declarations
+ */
 
 #include <iostream>
 #include <fstream>

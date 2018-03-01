@@ -1,9 +1,10 @@
-//********************
-//Matthew Aberegg
-//Project 3
-//CS 2401
-//10/8/2015
-//********************
+/*! \file college.cc
+ *  \brief implementation file for college class
+ *  \author Matthew Aberegg
+ *  
+ *  This file contains function implementations
+ */
+
 #include "college.h"
 #include<cstdlib>
 #include<iostream>
@@ -68,7 +69,11 @@ College& College::operator =(const College& other){
 	}
 	return * this;
 }
-
+/*! \fn void *College::add(course& c)
+ *  \brief A function to add a course
+ *  \param c a course
+ *  \return nothing
+ */
 void College::add(course& c){
 	node * previous;
 	node * cursor;
@@ -106,7 +111,11 @@ void College::add(course& c){
 		}
 	}
 }
-
+/*! \fn void *College::remove(std::string coursename)
+ *  \brief A function to remove a course
+ *  \param coursename a string
+ *  \return nothing
+ */
 void College::remove(std::string coursename){
 	node * previous;	
 	node * cursor;
@@ -128,7 +137,11 @@ void College::remove(std::string coursename){
 }
 }
 }
-
+/*! \fn void *College::display(std::ostream& outs)
+ *  \brief A function to display all courses
+ *  \param outs an ostream
+ *  \return nothing
+ */
 void College::display(std::ostream& outs){
 	node * ptr;
 	ptr = head;

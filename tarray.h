@@ -7,7 +7,12 @@
 		Lab 7		Fall 2014
 	John Dolan			Ohio University 
 ********************************************************************/
-
+/*! \file tarray.h
+ *  \brief implementation for Tarray class
+ *  \author John Dolan
+ *  
+ *  This file contains implementations and declarations for tarray class
+ */
 #include<iostream>
 
 template<class T>

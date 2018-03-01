@@ -6,7 +6,12 @@
 	point system.
 		John Dolan	School of EECS		Summer 2013
 ************************************************************************/
-
+/*! \file
+ *  \brief header file for course class
+ *  \author John Dolan
+ *  
+ *  This file contains function declarations
+ */
 #include<iostream>
 #include<string>
 #ifndef COURSE_H

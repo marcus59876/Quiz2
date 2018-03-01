@@ -3,6 +3,12 @@
 	course.
 		John Dolan		School of EECS		Summer2013
 **************************************************************************/
+/*! \file course.cc
+ *  \brief implementation for course class
+ *  \author John Dolan
+ *  
+ *  This file contains function implementations
+ */
 #include "course.h"
 #include<cstdlib>
 #include<iostream>
